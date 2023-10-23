@@ -16,6 +16,7 @@
 				<router-link to="/slide11">Slide 11</router-link>
 				<router-link to="/slide12">Slide 12</router-link>
 				<router-link to="/slide13">Slide 13</router-link>
+				<router-link to="/slide14">Slide 14</router-link>
 			</nav>
 			<router-view></router-view>
 		</div>

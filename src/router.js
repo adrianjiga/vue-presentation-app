@@ -12,6 +12,7 @@ import Slide10 from "./components/Slide10.vue";
 import Slide11 from "./components/Slide11.vue";
 import Slide12 from "./components/Slide12.vue";
 import Slide13 from "./components/Slide13.vue";
+import Slide14 from "./components/Slide14.vue";
 
 const routes = [
 	{ path: "/", component: Slide1 },
@@ -27,6 +28,7 @@ const routes = [
 	{ path: "/slide11", component: Slide11 },
 	{ path: "/slide12", component: Slide12 },
 	{ path: "/slide13", component: Slide13 },
+	{ path: "/slide14", component: Slide14 },
 ];
 
 const router = createRouter({
