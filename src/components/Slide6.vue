@@ -28,7 +28,7 @@
 		<div class="content">
 			<p>
 				To create a computed property, define it within your component using
-				the `computed` property.
+				the <strong>computed</strong> property.
 			</p>
 			<p></p>
 		</div>
@@ -39,8 +39,9 @@
 				<img src="../assets/computed-example.png" alt="computed example" />
 			</p>
 			<p>
-				In this example, the `fullName` computed property concatenates the
-				`firstName` and `lastName` data properties to create a full name.
+				In this example, the <code>fullName</code> computed property
+				concatenates the <code>firstName</code> and
+				<code>lastName</code> data properties to create a full name.
 			</p>
 		</div>
 
@@ -50,15 +51,11 @@
 				You can easily use computed properties in your template by
 				referencing them like a regular data property.
 			</p>
-			<p>{{ fullName }}</p>
+			<img src="../assets/computed-reference.png" alt="computed reference" />
 		</div>
 
 		<h2 class="sub-title">Benefits of Computed Properties</h2>
 		<div class="content">
-			<p>
-				Improved code organization: Complex calculations are separated from
-				the template, making your code more maintainable.
-			</p>
 			<p>
 				Efficiency: Computed properties are cached and only recalculated
 				when their dependencies change.
@@ -78,18 +75,6 @@
 			</p>
 		</div>
 
-		<h2 class="sub-title">Practical Use Cases</h2>
-		<div class="content">
-			<p>
-				Computed properties are handy for formatting, filtering, and sorting
-				data.
-			</p>
-			<p>
-				They can also be used to derive values for display purposes, such as
-				displaying the total price of items in a shopping cart.
-			</p>
-		</div>
-
 		<h2 class="sub-title">Summary</h2>
 		<div class="content">
 			<p>
@@ -99,7 +84,7 @@
 			<p>
 				They allow you to perform data transformations and calculations with
 				ease, improving your application's overall performance and
-				organization.
+				efficiency.
 			</p>
 		</div>
 	</div>
