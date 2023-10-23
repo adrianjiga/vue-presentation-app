@@ -1,6 +1,7 @@
 <template>
 	<div class="slide">
 		<h1 class="slide-title">Slide 12: Best Practices and Tips</h1>
+
 		<h2 class="sub-title">Code Organization and Project Structure:</h2>
 		<div class="content">
 			<p>
@@ -12,8 +13,8 @@
 				components, views, and utility functions.
 			</p>
 			<p>
-				Leveraging a build tool like Vite or VueCLI can help establish a
-				sensible project structure from the start.
+				Leveraging a build tool like Vite can help establish a sensible
+				project structure from the start.
 			</p>
 			<p>
 				Use meaningful file and folder names to make your codebase more
@@ -24,6 +25,7 @@
 				improve collaboration and code maintenance.
 			</p>
 		</div>
+
 		<h2 class="sub-title">Handling Component Communication:</h2>
 		<div class="content">
 			<p>
@@ -35,27 +37,16 @@
 				and custom events or a central state management system (e.g., Vuex)
 				for complex applications.
 			</p>
+			<img
+				src="../assets/parent-child-communication.png"
+				alt="parent child components communication"
+			/>
 			<p>
 				Consider using the <strong>provide/inject</strong> for sharing data
 				between deeply nested components when necessary.
 			</p>
 		</div>
-		<h2 class="sub-title">Performance Optimization Strategies:</h2>
-		<div class="content">
-			<p>
-				To enhance the performance of your VueJS applications, apply
-				strategies like lazy loading routes using Vue Router to minimize the
-				initial load time.
-			</p>
-			<p>
-				Optimize the reactivity system by avoiding unnecessary re-renders
-				through computed properties and memoization.
-			</p>
-			<p>
-				Take advantage of Vue's built-in code-splitting and use asynchronous
-				components for better loading performance.
-			</p>
-		</div>
+
 		<h2 class="sub-title">
 			Useful Tools and Extensions for Vue Development:
 		</h2>
@@ -66,11 +57,7 @@
 			</p>
 			<p>
 				Some popular choices include Vue Devtools, Volar (for VS Code), and
-				Vite/Vue CLI.
-			</p>
-			<p>
-				These tools provide insights into component hierarchies, enable
-				interactive debugging, and offer project scaffolding and management.
+				Vite.
 			</p>
 		</div>
 	</div>

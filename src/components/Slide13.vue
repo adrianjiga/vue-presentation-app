@@ -8,8 +8,8 @@
 				for building dynamic and interactive web applications.
 			</p>
 			<p>
-				The Composition API enhances code organization and reusability,
-				making Vue applications more maintainable and scalable.
+				VueJS 3 comes with 2 different approaches: Composition API and
+				Options API.
 			</p>
 			<p>
 				Vue Router simplifies client-side routing, creating a seamless user
@@ -24,17 +24,9 @@
 				ensures efficient and type-safe development.
 			</p>
 			<p>
-				We've explored a demo app built with VueJS 3, demonstrating its
-				capabilities in a real-world scenario.
-			</p>
-			<p>
 				Performance improvements in VueJS 3, including an optimized
 				reactivity system, result in faster rendering and a superior user
 				experience.
-			</p>
-			<p>
-				We've discussed best practices for Vue development, emphasizing code
-				organization, component communication, and performance optimization.
 			</p>
 			<p>
 				Useful tools and extensions, like Vue Devtools and Volar (VS Code

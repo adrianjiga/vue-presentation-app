@@ -17,13 +17,13 @@
 		<h2 class="sub-title">Creating Refs</h2>
 		<div class="content">
 			<p>
-				You can create a ref in a component using the `ref` function. For
-				example:
+				You can create a ref in a component using the
+				<strong>ref</strong> function. For example:
 			</p>
 			<img src="../assets/refs-example.png" alt="refs example" />
 			<p>
-				Here, `myRef` is a ref that can be associated with an element or a
-				component instance in the template.
+				Here, <strong>myRef</strong> is a ref that can be associated with an
+				element or a component instance in the template.
 			</p>
 		</div>
 

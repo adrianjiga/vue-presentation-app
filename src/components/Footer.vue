@@ -1,7 +1,6 @@
 <template>
 	<footer>
-		<p>&copy; 2023 VueJS 3 Demo App</p>
-		<p>Adrian Jiga</p>
+		<p>&copy; 2023 Adrian Jiga</p>
 	</footer>
 </template>
 

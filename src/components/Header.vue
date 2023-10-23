@@ -1,5 +1,7 @@
 <template>
-	<div>VueJS 3</div>
+	<header>
+		<div>VueJS 3</div>
+	</header>
 </template>
 
 <script>
