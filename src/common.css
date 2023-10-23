@@ -1,0 +1,19 @@
+.slide {
+	padding: 20px;
+}
+
+.slide-title {
+	font-size: 35px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.sub-title {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.content {
+	margin-left: 1.5rem;
+}
