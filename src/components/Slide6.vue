@@ -30,11 +30,6 @@
 				To create a computed property, define it within your component using
 				the <strong>computed</strong> property.
 			</p>
-			<p></p>
-		</div>
-
-		<h2 class="sub-title">A Simple Example</h2>
-		<div class="content">
 			<p>
 				<img src="../assets/computed-example.png" alt="computed example" />
 			</p>
@@ -43,10 +38,6 @@
 				concatenates the <code>firstName</code> and
 				<code>lastName</code> data properties to create a full name.
 			</p>
-		</div>
-
-		<h2 class="sub-title">Using Computed Properties in the Template</h2>
-		<div class="content">
 			<p>
 				You can easily use computed properties in your template by
 				referencing them like a regular data property.
@@ -72,19 +63,6 @@
 				While computed properties are great for simple transformations, use
 				methods for operations with side effects, like HTTP requests or DOM
 				manipulation.
-			</p>
-		</div>
-
-		<h2 class="sub-title">Summary</h2>
-		<div class="content">
-			<p>
-				Computed properties are a valuable tool for enhancing the reactivity
-				and maintainability of your VueJS 3 applications.
-			</p>
-			<p>
-				They allow you to perform data transformations and calculations with
-				ease, improving your application's overall performance and
-				efficiency.
 			</p>
 		</div>
 	</div>
