@@ -1,44 +1,81 @@
 <template>
 	<div class="slide">
-		<h1 class="slide-title">Slide 11: Conclusion</h1>
-		<h2 class="sub-title">Key Takeaways</h2>
+		<h1 class="slide-title">Slide 11: Best Practices and Tips</h1>
+		<h2 class="sub-title">Code Organization and Project Structure:</h2>
 		<div class="content">
 			<p>
-				VueJS 3 is a powerful and developer-friendly JavaScript framework
-				for building dynamic and interactive web applications.
+				When working with VueJS, it's essential to maintain a clean and
+				organized project structure.
 			</p>
 			<p>
-				The Composition API enhances code organization and reusability,
-				making Vue applications more maintainable and scalable.
+				Consider using a modular approach, dividing your code into
+				components, views, and utility functions.
 			</p>
 			<p>
-				Vue Router simplifies client-side routing, creating a seamless user
-				experience in Vue applications.
+				Leveraging a build tool like Vite or VueCLI can help establish a
+				sensible project structure from the start.
 			</p>
 			<p>
-				Components in VueJS allow you to create modular, self-contained
-				units of functionality, contributing to a clean project structure.
+				Use meaningful file and folder names to make your codebase more
+				understandable.
 			</p>
 			<p>
-				Vue's reactivity system, along with TypeScript support in VueJS 3,
-				ensures efficient and type-safe development.
+				Implement a consistent naming convention and folder hierarchy to
+				improve collaboration and code maintenance.
+			</p>
+		</div>
+		<h2 class="sub-title">Handling Component Communication:</h2>
+		<div class="content">
+			<p>
+				One of the key challenges in VueJS development is managing
+				communication between components.
 			</p>
 			<p>
-				We've explored a demo app built with VueJS 3, demonstrating its
-				capabilities in a real-world scenario.
+				Best practices include using props for parent-to-child communication
+				and custom events or a central state management system (e.g., Vuex)
+				for complex applications.
 			</p>
 			<p>
-				Performance improvements in VueJS 3, including an optimized
-				reactivity system, result in faster rendering and a superior user
-				experience.
+				Consider using the <strong>provide/inject</strong> for sharing data
+				between deeply nested components when necessary.
+			</p>
+		</div>
+		<h2 class="sub-title">Performance Optimization Strategies:</h2>
+		<div class="content">
+			<p>
+				To enhance the performance of your VueJS applications, apply
+				strategies like lazy loading routes using Vue Router to minimize the
+				initial load time.
 			</p>
 			<p>
-				We've discussed best practices for Vue development, emphasizing code
-				organization, component communication, and performance optimization.
+				Optimize the reactivity system by avoiding unnecessary re-renders
+				through computed properties and memoization.
 			</p>
 			<p>
-				Useful tools and extensions, like Vue Devtools and Volar (VS Code
-				specific), can enhance your Vue development workflow.
+				Take advantage of Vue's built-in code-splitting and use asynchronous
+				components for better loading performance.
+			</p>
+		</div>
+		<h2 class="sub-title">
+			Useful Tools and Extensions for Vue Development:
+		</h2>
+		<div class="content">
+			<p>
+				As a Vue developer, you can benefit from various tools and
+				extensions that simplify development and debugging.
+			</p>
+			<p>
+				Some popular choices include Vue Devtools, Volar (for VS Code), and
+				Vite/Vue CLI.
+			</p>
+			<p>
+				These tools provide insights into component hierarchies, enable
+				interactive debugging, and offer project scaffolding and management.
+			</p>
+			<p>
+				Keep an eye on Vue's official documentation and the Vue ecosystem
+				for new tools and extensions that can streamline your development
+				workflow.
 			</p>
 		</div>
 	</div>

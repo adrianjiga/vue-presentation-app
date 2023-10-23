@@ -15,6 +15,7 @@
 				<router-link to="/slide10">Slide 10</router-link>
 				<router-link to="/slide11">Slide 11</router-link>
 				<router-link to="/slide12">Slide 12</router-link>
+				<router-link to="/slide13">Slide 13</router-link>
 			</nav>
 			<router-view></router-view>
 		</div>
@@ -53,7 +54,7 @@
 	a {
 		background-color: #95d5b2;
 		color: black;
-		padding: 10px 20px;
+		padding: 10px;
 		border: none;
 		border-radius: 5px;
 		cursor: pointer;
