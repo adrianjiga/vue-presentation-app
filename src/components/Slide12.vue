@@ -72,11 +72,6 @@
 				These tools provide insights into component hierarchies, enable
 				interactive debugging, and offer project scaffolding and management.
 			</p>
-			<p>
-				Keep an eye on Vue's official documentation and the Vue ecosystem
-				for new tools and extensions that can streamline your development
-				workflow.
-			</p>
 		</div>
 	</div>
 </template>

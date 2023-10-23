@@ -54,11 +54,6 @@
 					unmounted and destroyed.
 				</li>
 			</ul>
-
-			<img
-				src="../assets/vuejs-lifecycle-hooks.png"
-				alt="Vue lifecycle hooks"
-			/>
 		</div>
 
 		<h2 class="sub-title">Common Use Cases</h2>
@@ -85,18 +80,10 @@
 				</li>
 			</ul>
 		</div>
-
-		<h2 class="sub-title">Summary</h2>
-		<div class="content">
-			<p>
-				Lifecycle hooks are an integral part of VueJS 3, allowing you to
-				control and manage your component's behavior at various stages.
-			</p>
-			<p>
-				They provide flexibility and power to execute custom code, making
-				your Vue applications more robust and responsive.
-			</p>
-		</div>
+		<img
+			src="../assets/vuejs-lifecycle-hooks.png"
+			alt="Vue lifecycle hooks"
+		/>
 	</div>
 </template>
 
