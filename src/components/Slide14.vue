@@ -70,7 +70,7 @@
 	}
 	.slide-title {
 		font-size: 35px;
-		margin-bottom: 15px;
+		margin-bottom: 45px;
 		text-align: center;
 	}
 
