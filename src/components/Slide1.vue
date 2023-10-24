@@ -53,8 +53,8 @@
 	@import "../common.css";
 
 	img {
-		width: 600px;
-		height: 511.75px;
+		width: auto;
+		height: 400px;
 	}
 
 	img.jetbrains-popularity {
