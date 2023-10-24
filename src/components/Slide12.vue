@@ -38,7 +38,7 @@
 				for complex applications.
 			</p>
 			<img
-				src="../assets/parent-child-communication.png"
+				src="../assets/parent-child-communication.jpg"
 				alt="parent child components communication"
 			/>
 			<p>

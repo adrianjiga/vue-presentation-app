@@ -31,7 +31,7 @@
 				the <strong>computed</strong> property.
 			</p>
 			<p>
-				<img src="../assets/computed-example.png" alt="computed example" />
+				<img src="../assets/computed-example.jpg" alt="computed example" />
 			</p>
 			<p>
 				In this example, the <code>fullName</code> computed property
@@ -42,7 +42,7 @@
 				You can easily use computed properties in your template by
 				referencing them like a regular data property.
 			</p>
-			<img src="../assets/computed-reference.png" alt="computed reference" />
+			<img src="../assets/computed-reference.jpg" alt="computed reference" />
 		</div>
 
 		<h2 class="sub-title">Benefits of Computed Properties</h2>

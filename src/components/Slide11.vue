@@ -20,7 +20,7 @@
 				You can create a ref in a component using the
 				<strong>ref</strong> function. For example:
 			</p>
-			<img src="../assets/refs-example.png" alt="refs example" />
+			<img src="../assets/refs-example.jpg" alt="refs example" />
 			<p>
 				Here, <strong>myRef</strong> is a ref that can be associated with an
 				element or a component instance in the template.
@@ -33,7 +33,7 @@
 				Once you've created a ref, you can use it in your template like
 				this:
 			</p>
-			<img src="../assets/refs-usage-example.png" alt="refs usage example" />
+			<img src="../assets/refs-usage-example.jpg" alt="refs usage example" />
 			<div ref="myRef">This is a ref element.</div>
 			<button @click="logRef">Log Ref</button>
 			<p>You can access the ref in the template using `this.$refs.myRef`.</p>

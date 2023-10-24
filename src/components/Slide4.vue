@@ -39,7 +39,7 @@
 		<h2 class="sub-title">Example Component:</h2>
 		<div class="content">
 			<p>Here's a basic example of a Vue component structure:</p>
-			<img src="../assets/example-component.png" alt="example-component" />
+			<img src="../assets/example-component.jpg" alt="example-component" />
 		</div>
 	</div>
 </template>

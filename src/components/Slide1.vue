@@ -31,12 +31,12 @@
 				for 2022 and the JetBrains popularity survey for 2023
 			</p>
 			<img
-				src="../assets/stackoverflow-popularity.PNG"
+				src="../assets/stackoverflow-popularity.jpg"
 				alt="stackoverflow-popularity"
 			/>
 			<img
 				class="jetbrains-popularity"
-				src="../assets/jetbrains popularity.png"
+				src="../assets/jetbrains-popularity.jpg"
 				alt="jetbrains-popularity"
 			/>
 		</div>

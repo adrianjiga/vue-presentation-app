@@ -14,7 +14,7 @@
 					app. It creates the Vue app instance and sets up Vue Router for
 					navigation.
 					<p>
-						<img src="../assets/mainjs-example.png" alt="main.js file" />
+						<img src="../assets/mainjs-example.jpg" alt="main.js file" />
 					</p>
 				</li>
 				<li>
@@ -24,7 +24,7 @@
 					slide.
 					<p>
 						<img
-							src="../assets/routerjs-example.png"
+							src="../assets/routerjs-example.jpg"
 							alt="router.js file"
 						/>
 					</p>
@@ -35,7 +35,7 @@
 					buttons that allow you to move between the different slides using
 					Vue Router.
 					<p>
-						<img src="../assets/appvue-example.png" alt="App.vue file" />
+						<img src="../assets/appvue-example.jpg" alt="App.vue file" />
 					</p>
 				</li>
 			</ul>

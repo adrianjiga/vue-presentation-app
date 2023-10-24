@@ -81,7 +81,7 @@
 			</ul>
 		</div>
 		<img
-			src="../assets/vuejs-lifecycle-hooks.png"
+			src="../assets/vuejs-lifecycle-hooks.jpg"
 			alt="Vue lifecycle hooks"
 		/>
 	</div>

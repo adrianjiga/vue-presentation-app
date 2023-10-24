@@ -17,7 +17,7 @@
 				will have you up and running in no time.
 			</p>
 			<img
-				src="../assets/npm-create-vue-latest-example.png"
+				src="../assets/npm-create-vue-latest-example.jpg"
 				alt="npm create vue@latest example"
 			/>
 		</div>
@@ -55,7 +55,7 @@
 				For further clarity, here's a sample directory structure after
 				setting up a Vue 3 project using the first option:
 			</p>
-			<img src="../assets/project-structure.png" alt="project structure" />
+			<img src="../assets/project-structure.jpg" alt="project structure" />
 			<p>
 				This structure provides a foundation for your Vue 3 project, where
 				you can create components and start building your application.

@@ -45,7 +45,7 @@
 			<div v-else>
 				<p>This message is displayed when vifMessage is false.</p>
 			</div>
-			<img src="../assets/vif-example.png" alt="vif-example" />
+			<img src="../assets/vif-example.jpg" alt="vif-example" />
 		</div>
 
 		<h2 class="sub-title">v-on: Listening To Events</h2>
@@ -64,8 +64,8 @@
 				<button @click="handleClick">Click me (Shorthand)</button>
 			</div>
 			<div class="von-images">
-				<img src="../assets/von-examples.png" alt="von-example" />
-				<img src="../assets//von-method.png" alt="von-method" />
+				<img src="../assets/von-examples.jpg" alt="von-example" />
+				<img src="../assets//von-method.jpg" alt="von-method" />
 			</div>
 		</div>
 
@@ -76,7 +76,7 @@
 				and lists, allowing you to render dynamic content based on your
 				data.
 			</p>
-			<img src="../assets/vfor-example.png" alt="vfor-example" />
+			<img src="../assets/vfor-example.jpg" alt="vfor-example" />
 			<ul class="example-list">
 				<li v-for="item in items" :key="item">{{ item }}</li>
 			</ul>
@@ -93,10 +93,10 @@
 				The <code>v-model</code> directive enables two-way data binding
 				between the user interface and the data model.
 			</p>
-			<img src="../assets/vmodel-example.png" alt="vmodel-example" />
+			<img src="../assets/vmodel-example.jpg" alt="vmodel-example" />
 			<img
 				class="vmodel-example-text"
-				src="../assets/vmodel-example-text.png"
+				src="../assets/vmodel-example-text.jpg"
 				alt="vmodel-example-text"
 			/>
 

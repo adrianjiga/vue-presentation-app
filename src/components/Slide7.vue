@@ -23,7 +23,7 @@
 				defined within the Vue Router setup:
 			</p>
 			<img
-				src="../assets/routes-config-example.png"
+				src="../assets/routes-config-example.jpg"
 				alt="routes-config-example"
 			/>
 		</div>
@@ -46,9 +46,9 @@
 					Create a Vue Router instance and configure your routes. Here's a
 					basic setup:
 					<p>Main.js</p>
-					<img src="../assets/mainjs-example.png" alt="main.js file" />
+					<img src="../assets/mainjs-example.jpg" alt="main.js file" />
 					<p>Router.js</p>
-					<img src="../assets/routerjs-example.png" alt="router.js file" />
+					<img src="../assets/routerjs-example.jpg" alt="router.js file" />
 				</li>
 			</ol>
 
@@ -60,7 +60,7 @@
 					current route.
 					<p>
 						<img
-							src="../assets/router-link-example.png"
+							src="../assets/router-link-example.jpg"
 							alt="router-link example"
 						/>
 					</p>
