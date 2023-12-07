@@ -1,36 +1,64 @@
 <template>
 	<div class="slide">
-		<h1 class="slide-title">Slide 13: Conclusion</h1>
-		<h2 class="sub-title">Key Takeaways</h2>
+		<h1 class="slide-title">Slide 13: Vue 2 vs. Vue 3</h1>
+
+		<h2 class="sub-title">1. Composition API:</h2>
 		<div class="content">
 			<p>
-				VueJS 3 is a powerful and developer-friendly JavaScript framework
-				for building dynamic and interactive web applications.
+				<strong>Vue 2:</strong> Relies on the Options API, which can lead to
+				complex and verbose component logic. It has support for Composition
+				API since v2.7.
 			</p>
 			<p>
-				VueJS 3 comes with 2 different approaches: Composition API and
-				Options API.
+				<strong>Vue 3:</strong> Introduces the Composition API, providing a
+				more flexible and modular way to organize component logic.
+			</p>
+		</div>
+
+		<h2 class="sub-title">2. Reactivity System:</h2>
+		<div class="content">
+			<p>
+				<strong>Vue 2:</strong> Limited reactivity and less efficient
+				dependency tracking.
 			</p>
 			<p>
-				Vue Router simplifies client-side routing, creating a seamless user
-				experience in Vue applications.
+				<strong>Vue 3:</strong> Optimized reactivity system for faster
+				updates and improved performance.
+			</p>
+		</div>
+
+		<h2 class="sub-title">3. Performance Improvements:</h2>
+		<div class="content">
+			<p>
+				<strong>Vue 3:</strong> Significant performance improvements in
+				terms of rendering speed and overall efficiency.
 			</p>
 			<p>
-				Components in VueJS allow you to create modular, self-contained
-				units of functionality, contributing to a clean project structure.
+				<strong>Vue 3:</strong> Better handling of complex and
+				data-intensive applications compared to Vue 2.
+			</p>
+		</div>
+
+		<h2 class="sub-title">4. TypeScript Integration:</h2>
+		<div class="content">
+			<p>
+				<strong>Vue 3:</strong> Better TypeScript integration with improved
+				type inference and support.
 			</p>
 			<p>
-				Vue's reactivity system, along with TypeScript support in VueJS 3,
-				ensures efficient and type-safe development.
+				<strong>Vue 2:</strong> Supports TypeScript, but the integration is
+				not as seamless as in Vue 3.
+			</p>
+		</div>
+
+		<h2 class="sub-title">5. Teleport Component:</h2>
+		<div class="content">
+			<p>
+				<strong>Vue 3:</strong> Introduces the Teleport component for more
+				flexible and efficient rendering in different parts of the DOM.
 			</p>
 			<p>
-				Performance improvements in VueJS 3, including an optimized
-				reactivity system, result in faster rendering and a superior user
-				experience.
-			</p>
-			<p>
-				Useful tools and extensions, like Vue Devtools and Volar (VS Code
-				specific), can enhance your Vue development workflow.
+				<strong>Vue 2:</strong> Does not have a built-in Teleport component.
 			</p>
 		</div>
 	</div>

@@ -8,11 +8,6 @@
 				JavaScript framework designed for creating dynamic and interactive
 				user interfaces.
 			</p>
-			<p>
-				It has gained immense popularity and recognition among web
-				developers due to its ease of use, versatility, and remarkable
-				performance.
-			</p>
 		</div>
 
 		<h2 class="sub-title">Popularity and Prevalence</h2>
@@ -21,14 +16,6 @@
 				VueJS has found its place in a multitude of web development
 				projects, from small-scale websites to large, complex web
 				applications.
-			</p>
-			<p>
-				Its widespread use is a testament to its effectiveness and
-				developer-friendly nature.
-			</p>
-			<p>
-				In the next 2 images we have the Stack Overflow popularity survey
-				for 2022 and the JetBrains popularity survey for 2023
 			</p>
 			<img
 				src="../assets/stackoverflow-popularity.jpg"

@@ -1,0 +1,5 @@
+- slots
+- obiecte proxy: de ce exista si de ce se folosesc
+- Reactivitate
+- diferente intre VueJS 2 si VueJS 3
+- VueJS 3 + TypeScript

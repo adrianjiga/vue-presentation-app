@@ -1,65 +1,45 @@
 <template>
 	<div class="slide">
-		<h1 class="slide-title">Slide 3: Setting Up VueJS 3</h1>
+		<h1 class="slide-title">Slide 3: VueJS 3 Components</h1>
 
-		<h2 class="sub-title">Using Vite: A Lightning-Fast Setup</h2>
+		<h2 class="sub-title">Defining Components and Their Significance</h2>
 		<div class="content">
 			<p>
-				Vite is a cutting-edge build tool for web development, and it's an
-				excellent choice for creating VueJS 3 projects.
+				In VueJS, components are fundamental building blocks that
+				encapsulate a part of the user interface, making the code more
+				modular and maintainable.
 			</p>
 			<p>
-				To create a new Vue 3 project with Vite, execute the following
-				command in your terminal: <code>npm create vue@latest </code>
-			</p>
-			<p>
-				Vite's lightning-fast development server and quick setup process
-				will have you up and running in no time.
-			</p>
-			<img
-				src="../assets/npm-create-vue-latest-example.jpg"
-				alt="npm create vue@latest example"
-			/>
-		</div>
-
-		<h2 class="sub-title">Installing Vue 3 with npm</h2>
-		<div class="content">
-			<p>
-				If you prefer a more traditional setup, you can install Vue 3 with
-				npm, the Node.js package manager.
-			</p>
-			<p>
-				Begin by creating a new directory for your project and navigate to
-				it using the command line.
-			</p>
-			<p>
-				To install Vue 3, use the following commands:
-				<code>
-					<br />
-					mkdir my-vue3-app
-					<br />
-					cd my-vue3-app
-					<br />
-					npm install vue@next
-				</code>
-			</p>
-			<p>
-				This will install only Vue 3 into your project, and you can start
-				building Vue applications right away.
+				They allow us to create reusable, self-contained units of
+				functionality, each with its own template, script, and styling.
 			</p>
 		</div>
 
-		<h2 class="sub-title">Code Snippet for Clarity</h2>
+		<h2 class="sub-title">Creating a Basic Vue Component:</h2>
 		<div class="content">
-			<p>
-				For further clarity, here's a sample directory structure after
-				setting up a Vue 3 project using the first option:
-			</p>
-			<img src="../assets/project-structure.jpg" alt="project structure" />
-			<p>
-				This structure provides a foundation for your Vue 3 project, where
-				you can create components and start building your application.
-			</p>
+			<p>To create a simple Vue component:</p>
+			<ul>
+				<li>
+					Define the template in HTML within the
+					<code>&lt;template&gt;</code> tag.
+				</li>
+				<li>
+					Add the script section to define the component's behavior using
+					the
+					<code>&lt;script&gt;</code> tag.
+				</li>
+				<li>
+					Optionally, add the component's styling in a
+					<code>&lt;style&gt;</code>
+					section.
+				</li>
+			</ul>
+		</div>
+
+		<h2 class="sub-title">Example Component:</h2>
+		<div class="content">
+			<p>Here's a basic example of a Vue component structure:</p>
+			<img src="../assets/example-component.jpg" alt="example-component" />
 		</div>
 	</div>
 </template>
@@ -74,6 +54,13 @@
 	@import "../common.css";
 
 	.code {
+		background-color: #f7f7f7;
+		padding: 10px;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+	}
+
+	.text {
 		background-color: #f7f7f7;
 		padding: 10px;
 		border: 1px solid #ddd;

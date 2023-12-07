@@ -1,98 +1,106 @@
 <template>
 	<div class="slide">
-		<h1 class="slide-title">Slide 10: VueJS 3 Lifecycle Hooks</h1>
+		<h1 class="slide-title">Slide 10: VueJS 3 Refs</h1>
 
-		<h2 class="sub-title">Understanding Lifecycle Hooks</h2>
+		<h2 class="sub-title">Understanding Refs</h2>
 		<div class="content">
 			<p>
-				Lifecycle hooks are special methods provided by Vue that allow you
-				to execute code at specific stages of a component's lifecycle.
+				Refs are a feature in VueJS 3 that provides direct access to a DOM
+				element or a component instance within your template.
 			</p>
 			<p>
-				They provide opportunities to perform tasks like initialization,
-				data loading, and cleanup.
+				They are commonly used to interact with the DOM or child components
+				in a more imperative way.
 			</p>
 		</div>
 
-		<h2 class="sub-title">The Key Lifecycle Stages</h2>
+		<h2 class="sub-title">Creating Refs</h2>
 		<div class="content">
 			<p>
-				Vue components go through several key stages during their lifecycle,
-				and there are corresponding hooks for each stage.
+				You can create a ref in a component using the
+				<strong>ref</strong> option. For example:
 			</p>
-			<ul>
-				<li>
-					<strong>beforeCreate:</strong> Called just before instance
-					creation, useful for configuration.
-				</li>
-				<li>
-					<strong>created:</strong> Called after instance creation, data
-					observation, and events setup.
-				</li>
-				<li>
-					<strong>beforeMount:</strong> Called just before the component is
-					added to the DOM.
-				</li>
-				<li>
-					<strong>mounted:</strong> Called after the component is added to
-					the DOM.
-				</li>
-				<li>
-					<strong>beforeUpdate:</strong> Called when data changes but
-					before the virtual DOM re-render and patch.
-				</li>
-				<li>
-					<strong>updated:</strong> Called after a data change causes a
-					re-render and the component is updated in the DOM.
-				</li>
-				<li>
-					<strong>beforeUnmount:</strong> Called just before the component
-					is unmounted and destroyed.
-				</li>
-				<li>
-					<strong>unmounted:</strong> Called after the component is
-					unmounted and destroyed.
-				</li>
-			</ul>
+			<img src="../assets/refs-example.jpg" alt="refs example" />
+			<p>
+				Here, <strong>myRef</strong> is a ref that can be associated with an
+				element or a component instance in the template.
+			</p>
+		</div>
+
+		<h2 class="sub-title">Using Refs in Templates</h2>
+		<div class="content">
+			<p>
+				Once you've created a ref, you can use it in your template like
+				this:
+			</p>
+			<img src="../assets/refs-usage-example.jpg" alt="refs usage example" />
+			<div ref="myRef">This is a ref element.</div>
+			<button @click="logRef">Log Ref</button>
+			<p>
+				You can access the ref in the template using
+				<code>this.$refs.myRef</code>.
+			</p>
 		</div>
 
 		<h2 class="sub-title">Common Use Cases</h2>
 		<div class="content">
-			<p>
-				Lifecycle hooks are valuable for various scenarios. Here are a few
-				common use cases:
-			</p>
+			<p>Refs are handy for various tasks, including:</p>
 			<ul>
 				<li>
-					<strong>beforeCreate and created:</strong> Configuration, data
-					setup, and initialization.
+					<strong>Accessing DOM elements:</strong> You can manipulate the
+					DOM directly using refs.
 				</li>
 				<li>
-					<strong>mounted:</strong> DOM-related actions and data fetching.
-				</li>
-				<li>
-					<strong>beforeUpdate and updated:</strong> Reacting to data
-					changes in the component.
-				</li>
-				<li>
-					<strong>beforeUnmount and unmounted:</strong> Cleanup, such as
-					removing event listeners or timers.
+					<strong>Interacting with child components:</strong> Refs can be
+					used to trigger methods or access data in child components.
 				</li>
 			</ul>
 		</div>
-		<img
-			src="../assets/vuejs-lifecycle-hooks.jpg"
-			alt="Vue lifecycle hooks"
-		/>
+
+		<h2 class="sub-title">Important Considerations</h2>
+		<div class="content">
+			<p>
+				While refs offer powerful capabilities, they should be used with
+				caution to maintain the reactivity and declarative nature of Vue.
+			</p>
+			<p>
+				It's best to leverage Vue's reactivity system and component
+				communication whenever possible before resorting to refs.
+			</p>
+		</div>
 	</div>
 </template>
 
 <script>
 	export default {
 		name: "Slide10",
+		data() {
+			return {
+				myRef: null,
+			};
+		},
+		methods: {
+			logRef() {
+				console.log(this.$refs.myRef);
+			},
+		},
 	};
 </script>
 
 <style scoped>
 	@import "../common.css";
+
+	button {
+		background-color: #95d5b2;
+		padding: 10px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		text-decoration: none;
+		font-weight: 700;
+	}
+
+	button:hover {
+		background-color: rgba(3, 173, 100, 0.697);
+	}
 </style>

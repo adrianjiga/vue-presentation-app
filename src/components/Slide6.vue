@@ -1,69 +1,68 @@
 <template>
 	<div class="slide">
-		<h1 class="slide-title">Slide 6: Computed Properties in VueJS 3</h1>
+		<h1 class="slide-title">Slide 5: VueJS 3 Routing</h1>
 
-		<h2 class="sub-title">Introducing Computed Properties</h2>
+		<h2 class="sub-title">The Importance of Client-Side Routing</h2>
 		<div class="content">
 			<p>
-				Computed properties are a powerful feature in VueJS 3 that allow you
-				to perform complex calculations or data manipulations and bind the
-				result to the template.
-			</p>
-			<p>They are like data properties, but with added benefits.</p>
-		</div>
-
-		<h2 class="sub-title">Why Use Computed Properties?</h2>
-		<div class="content">
-			<p>
-				Computed properties are ideal for scenarios where you need to derive
-				values from your existing data.
-			</p>
-			<p>
-				Computed properties automatically update when their dependencies
-				change.
+				Vue Router is the official routing library for VueJS, and it plays a
+				crucial role in enabling client-side routing in your Vue
+				applications.
 			</p>
 		</div>
 
-		<h2 class="sub-title">Creating Computed Properties</h2>
+		<h2 class="sub-title">Code Snippet for Configuring Routes</h2>
 		<div class="content">
 			<p>
-				To create a computed property, define it within your component using
-				the <strong>computed</strong> property.
+				To clarify route configuration, here's an example of how routes are
+				defined within the Vue Router setup:
 			</p>
-			<p>
-				<img src="../assets/computed-example.jpg" alt="computed example" />
-			</p>
-			<p>
-				In this example, the <code>fullName</code> computed property
-				concatenates the <code>firstName</code> and
-				<code>lastName</code> data properties to create a full name.
-			</p>
-			<p>
-				You can easily use computed properties in your template by
-				referencing them like a regular data property.
-			</p>
-			<img src="../assets/computed-reference.jpg" alt="computed reference" />
+			<img
+				src="../assets/routes-config-example.jpg"
+				alt="routes-config-example"
+			/>
 		</div>
 
-		<h2 class="sub-title">Benefits of Computed Properties</h2>
+		<h2 class="sub-title">Setting Up Vue Router in Your Project</h2>
 		<div class="content">
 			<p>
-				Efficiency: Computed properties are cached and only recalculated
-				when their dependencies change.
+				To get started with Vue Router in your VueJS 3 project, follow these
+				key steps:
 			</p>
-			<p>
-				Reactivity: Computed properties automatically update when their
-				underlying data changes.
-			</p>
-		</div>
+			<ol>
+				<li>
+					Install Vue Router using npm:
+					<pre>npm install vue-router@4</pre>
+				</li>
+			</ol>
 
-		<h2 class="sub-title">When to Use Methods Instead</h2>
-		<div class="content">
-			<p>
-				While computed properties are great for simple transformations, use
-				methods for operations with side effects, like HTTP requests or DOM
-				manipulation.
-			</p>
+			<ol start="2">
+				<li>
+					Create a Vue Router instance and configure your routes. Here's a
+					basic setup:
+					<p>Main.js</p>
+					<img src="../assets/mainjs-example.jpg" alt="main.js file" />
+					<p>Router.js</p>
+					<img src="../assets/routerjs-example.jpg" alt="router.js file" />
+				</li>
+			</ol>
+
+			<ol start="3">
+				<li>
+					In your Vue components, you can use the
+					<b><code>&lt;router-link&gt;</code></b>
+					component to navigate between routes and the
+					<b><code>&lt;router-view&gt;</code></b>
+					component to display the appropriate component based on the
+					current route.
+					<p>
+						<img
+							src="../assets/router-link-example.jpg"
+							alt="router-link example"
+						/>
+					</p>
+				</li>
+			</ol>
 		</div>
 	</div>
 </template>
@@ -71,20 +70,13 @@
 <script>
 	export default {
 		name: "Slide6",
-		data() {
-			return {
-				firstName: "Adrian",
-				lastName: "Jiga",
-			};
-		},
-		computed: {
-			fullName() {
-				return this.firstName + " " + this.lastName;
-			},
-		},
 	};
 </script>
 
 <style scoped>
 	@import "../common.css";
+
+	code {
+		font-size: larger;
+	}
 </style>

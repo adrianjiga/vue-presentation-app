@@ -1,58 +1,72 @@
 <template>
 	<div class="slide">
-		<h1 class="slide-title">Slide 8: VueJS 3 Demo Application</h1>
-
-		<h2 class="sub-title">Understanding Our Vue 3 App Structure</h2>
+		<h1 class="slide-title">Slide 8: Vue Composition API</h1>
+		<h2 class="sub-title">Introduction to Composition API:</h2>
 		<div class="content">
 			<p>
-				In our Vue 3 demo application, the structure is organized into three
-				main parts:
+				The Vue Composition API is a set of additive, function-based APIs
+				that allow you to organize your component logic in a more flexible
+				and reusable way. It's a significant enhancement to Vue's reactivity
+				system.
 			</p>
-			<ul>
-				<li>
-					<strong>Main.js:</strong> This file is the entry point of our Vue
-					app. It creates the Vue app instance and sets up Vue Router for
-					navigation.
-					<p>
-						<img src="../assets/mainjs-example.jpg" alt="main.js file" />
-					</p>
-				</li>
-				<li>
-					<strong>Router.js:</strong> Vue Router is responsible for
-					handling navigation between different slides (components). It
-					defines the routes and associates each route with a specific
-					slide.
-					<p>
-						<img
-							src="../assets/routerjs-example.jpg"
-							alt="router.js file"
-						/>
-					</p>
-				</li>
-				<li>
-					<strong>App.vue:</strong> The App component serves as the
-					container for our application. It includes a navigation menu with
-					buttons that allow you to move between the different slides using
-					Vue Router.
-					<p>
-						<img src="../assets/appvue-example.jpg" alt="App.vue file" />
-					</p>
-				</li>
-			</ul>
+			<p>
+				With the Composition API, you can structure your component logic
+				using functions rather than options.
+			</p>
+		</div>
+		<h2 class="sub-title">Example of Vue Composition API:</h2>
+		<div class="content">
+			<p>
+				Let's take a look at a simple example using the Composition API. In
+				this example, we'll create a counter component with its logic
+				organized using the Composition API.
+			</p>
+			<pre>{{ counter }}</pre>
+			<button @click="incrementCounter">Increment Counter</button>
+
+			<p>Code Example</p>
+			<img
+				src="../assets/compositionAPIcode.jpg"
+				alt="composition api example"
+			/>
 		</div>
 	</div>
 </template>
 
 <script>
+	import { ref } from "vue";
+
 	export default {
 		name: "Slide8",
+		setup() {
+			const counter = ref(0);
+
+			const incrementCounter = () => {
+				counter.value++;
+			};
+
+			return {
+				counter,
+				incrementCounter,
+			};
+		},
 	};
 </script>
 
 <style scoped>
 	@import "../common.css";
 
-	.content li {
-		margin-bottom: 10px;
+	button {
+		background-color: #95d5b2;
+		padding: 10px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		text-decoration: none;
+		font-weight: 700;
+	}
+
+	button:hover {
+		background-color: rgba(3, 173, 100, 0.697);
 	}
 </style>
