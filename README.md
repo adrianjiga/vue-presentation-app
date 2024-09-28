@@ -1,7 +1,53 @@
-# Vue 3 + Vite
+# Vue Presentation App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A Vue 3-based application for showcasing slides with a simple routing mechanism.
 
-## Recommended IDE Setup
+Features:
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Vue 3.x** for a modern and reactive front-end experience.
+- **Vue Router** for seamless navigation between multiple slides.
+- **Vite** for a fast development and build process.
+
+## Installation
+
+#### Clone the repository:
+
+```git clone https://github.com/adrianjiga/vue-presentation-app.git
+cd vue-presentation-app
+```
+
+#### Install dependencies:
+
+```
+npm install
+```
+
+#### Start the development server:
+
+```
+npm run dev
+```
+
+## Structure
+
+- Slides: The app has 14 predefined slides, each as a separate Vue component.
+- Routing: Set up with Vue Router in router.js for easy navigation between slides.
+
+## Usage
+
+To preview the presentation:
+
+1. Navigate through the slides using the links on the navigation bar.
+2. Modify or add slides in the src/components folder.
+
+## Building for Production
+
+```
+npm run build
+```
+
+## Preview Production Build
+
+```
+npm run preview
+```
