@@ -12,7 +12,8 @@ Features:
 
 #### Clone the repository:
 
-```git clone https://github.com/adrianjiga/vue-presentation-app.git
+```
+git clone https://github.com/adrianjiga/vue-presentation-app.git
 cd vue-presentation-app
 ```
 
