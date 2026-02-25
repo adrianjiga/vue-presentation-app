@@ -1,6 +1,6 @@
 <template>
 	<footer>
-		<p>&copy; 2023 Adrian Jiga</p>
+		<p>&copy; 2025 Adrian Jiga</p>
 	</footer>
 </template>
 
@@ -12,7 +12,6 @@
 
 <style scoped>
 	footer {
-		/* position: sticky; */
 		bottom: 0;
 		background-color: #95d5b2;
 		text-align: center;
