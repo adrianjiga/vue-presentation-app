@@ -65,7 +65,7 @@
 			</div>
 			<div class="von-images">
 				<img alt="von-example" src="../assets/von-examples.jpg" />
-				<img alt="von-method" src="../assets//von-method.jpg" />
+				<img alt="von-method" src="../assets/von-method.jpg" />
 			</div>
 		</div>
 
