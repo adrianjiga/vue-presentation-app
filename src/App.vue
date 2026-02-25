@@ -56,12 +56,14 @@
 
 	.container {
 		min-height: 80vh;
-		padding: 0 300px;
+		padding: 0 clamp(16px, 8vw, 300px);
 	}
 
 	.nav-container {
 		display: flex;
-		justify-content: space-evenly;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 6px;
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 	}
@@ -80,5 +82,12 @@
 	.active-link {
 		background-color: rgba(3, 173, 100, 0.697);
 		color: #fff;
+	}
+
+	@media (max-width: 768px) {
+		a {
+			padding: 6px 10px;
+			font-size: 0.85rem;
+		}
 	}
 </style>

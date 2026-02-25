@@ -46,12 +46,12 @@
 	@import "../common.css";
 
 	img {
-		width: auto;
-		height: 400px;
+		max-width: 100%;
+		height: auto;
+		max-height: 400px;
 	}
 
 	img.jetbrains-popularity {
-		width: 400px;
-		max-height: 511.75px;
+		max-width: min(400px, 100%);
 	}
 </style>
