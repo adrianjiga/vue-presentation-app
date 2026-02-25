@@ -3,74 +3,14 @@
 		<Header></Header>
 		<div class="container">
 			<nav class="nav-container">
-				<router-link to="/" :class="{ 'active-link': $route.path === '/' }"
-					>Slide 1</router-link
-				>
 				<router-link
-					to="/slide2"
-					:class="{ 'active-link': $route.path === '/slide2' }"
-					>Slide 2</router-link
+					v-for="slide in slides"
+					:key="slide.path"
+					:to="slide.path"
+					:class="{ 'active-link': $route.path === slide.path }"
 				>
-				<router-link
-					to="/slide3"
-					:class="{ 'active-link': $route.path === '/slide3' }"
-					>Slide 3</router-link
-				>
-				<router-link
-					to="/slide4"
-					:class="{ 'active-link': $route.path === '/slide4' }"
-					>Slide 4</router-link
-				>
-				<router-link
-					to="/slide5"
-					:class="{ 'active-link': $route.path === '/slide5' }"
-					>Slide 5</router-link
-				>
-				<router-link
-					to="/slide6"
-					:class="{ 'active-link': $route.path === '/slide6' }"
-					>Slide 6</router-link
-				>
-				<router-link
-					to="/slide7"
-					:class="{ 'active-link': $route.path === '/slide7' }"
-					>Slide 7</router-link
-				>
-				<router-link
-					to="/slide8"
-					:class="{ 'active-link': $route.path === '/slide8' }"
-					>Slide 8</router-link
-				>
-				<router-link
-					to="/slide9"
-					:class="{ 'active-link': $route.path === '/slide9' }"
-					>Slide 9</router-link
-				>
-				<router-link
-					to="/slide10"
-					:class="{ 'active-link': $route.path === '/slide10' }"
-					>Slide 10</router-link
-				>
-				<router-link
-					to="/slide11"
-					:class="{ 'active-link': $route.path === '/slide11' }"
-					>Slide 11</router-link
-				>
-				<router-link
-					to="/slide12"
-					:class="{ 'active-link': $route.path === '/slide12' }"
-					>Slide 12</router-link
-				>
-				<router-link
-					to="/slide13"
-					:class="{ 'active-link': $route.path === '/slide13' }"
-					>Slide 13</router-link
-				>
-				<router-link
-					to="/slide14"
-					:class="{ 'active-link': $route.path === '/slide14' }"
-					>Slide 14</router-link
-				>
+					{{ slide.label }}
+				</router-link>
 			</nav>
 			<router-view></router-view>
 		</div>
@@ -85,6 +25,26 @@
 	export default {
 		name: "App",
 		components: { Header, Footer },
+		data() {
+			return {
+				slides: [
+					{ path: "/", label: "Slide 1" },
+					{ path: "/slide2", label: "Slide 2" },
+					{ path: "/slide3", label: "Slide 3" },
+					{ path: "/slide4", label: "Slide 4" },
+					{ path: "/slide5", label: "Slide 5" },
+					{ path: "/slide6", label: "Slide 6" },
+					{ path: "/slide7", label: "Slide 7" },
+					{ path: "/slide8", label: "Slide 8" },
+					{ path: "/slide9", label: "Slide 9" },
+					{ path: "/slide10", label: "Slide 10" },
+					{ path: "/slide11", label: "Slide 11" },
+					{ path: "/slide12", label: "Slide 12" },
+					{ path: "/slide13", label: "Slide 13" },
+					{ path: "/slide14", label: "Slide 14" },
+				],
+			};
+		},
 	};
 </script>
 
