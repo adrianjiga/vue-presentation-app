@@ -29,7 +29,6 @@ describe("Slide4 — Directives", () => {
 
   it("toggles v-show element visibility", async () => {
     const wrapper = mount(Slide4);
-    const toggleButton = wrapper.find("button[onClick]");
 
     // showElement starts as true, so the first v-show div is visible
     const firstShowDiv = wrapper.findAll("[style]")[0];

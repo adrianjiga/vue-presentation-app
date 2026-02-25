@@ -1,5 +1,9 @@
-export const createBasicProxyExample = () => {
-	const data = {
+interface ProxyData {
+	value: number;
+}
+
+export const createBasicProxyExample = (): ProxyData => {
+	const data: ProxyData = {
 		value: 42,
 	};
 

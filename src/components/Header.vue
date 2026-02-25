@@ -1,7 +1,7 @@
 <template>
-	<header>
-		<div>VueJS 3</div>
-	</header>
+  <header>
+    <div>VueJS 3</div>
+  </header>
 </template>
 
 <script lang="ts">

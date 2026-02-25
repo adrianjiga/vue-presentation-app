@@ -1,7 +1,7 @@
 <template>
-	<footer>
-		<p>&copy; 2025 Adrian Jiga</p>
-	</footer>
+  <footer>
+    <p>&copy; 2025 Adrian Jiga</p>
+  </footer>
 </template>
 
 <script lang="ts">

@@ -1,21 +1,21 @@
 <template>
-	<div id="app">
-		<Header></Header>
-		<div class="container">
-			<nav class="nav-container">
-				<router-link
-					v-for="slide in slides"
-					:key="slide.path"
-					:to="slide.path"
-					:class="{ 'active-link': $route.path === slide.path }"
-				>
-					{{ slide.label }}
-				</router-link>
-			</nav>
-			<router-view></router-view>
-		</div>
-		<Footer></Footer>
-	</div>
+  <div id="app">
+    <Header />
+    <div class="container">
+      <nav class="nav-container">
+        <router-link
+          v-for="slide in slides"
+          :key="slide.path"
+          :to="slide.path"
+          :class="{ 'active-link': $route.path === slide.path }"
+        >
+          {{ slide.label }}
+        </router-link>
+      </nav>
+      <router-view />
+    </div>
+    <Footer />
+  </div>
 </template>
 
 <script lang="ts">

@@ -1,61 +1,75 @@
 <template>
-	<div class="slide">
-		<h1 class="slide-title">Slide 14: Links & Documentation</h1>
+  <div class="slide">
+    <h1 class="slide-title">
+      Slide 14: Links & Documentation
+    </h1>
 
-		<div class="links">
-			<div class="sub-title">
-				VueJS Official Documentation
-				<a href="https://vuejs.org/guide/introduction.html" target="_blank"
-					>Vue</a
-				>
-			</div>
+    <div class="links">
+      <div class="sub-title">
+        VueJS Official Documentation
+        <a
+          href="https://vuejs.org/guide/introduction.html"
+          target="_blank"
+        >Vue</a>
+      </div>
 
-			<div class="sub-title">
-				VueJS with TypeScript
-				<a
-					href="https://vuejs.org/guide/typescript/overview.html"
-					target="_blank"
-					>Vue + TypeScript</a
-				>
-			</div>
+      <div class="sub-title">
+        VueJS with TypeScript
+        <a
+          href="https://vuejs.org/guide/typescript/overview.html"
+          target="_blank"
+        >Vue + TypeScript</a>
+      </div>
 
-			<div class="sub-title">
-				Vue Router Official Docs
-				<a href="https://router.vuejs.org/installation.html" target="_blank"
-					>Vue Router</a
-				>
-			</div>
+      <div class="sub-title">
+        Vue Router Official Docs
+        <a
+          href="https://router.vuejs.org/installation.html"
+          target="_blank"
+        >Vue Router</a>
+      </div>
 
-			<div class="sub-title">
-				Vuex Official Docs
-				<a href="https://vuex.vuejs.org/" target="_blank">Vuex</a>
-			</div>
+      <div class="sub-title">
+        Vuex Official Docs
+        <a
+          href="https://vuex.vuejs.org/"
+          target="_blank"
+        >Vuex</a>
+      </div>
 
-			<div class="sub-title">
-				Pinia Official Docs
-				<a href="https://pinia.vuejs.org/introduction.html" target="_blank"
-					>Pinia</a
-				>
-			</div>
+      <div class="sub-title">
+        Pinia Official Docs
+        <a
+          href="https://pinia.vuejs.org/introduction.html"
+          target="_blank"
+        >Pinia</a>
+      </div>
 
-			<div class="sub-title">
-				Vitest Official Docs
-				<a href="https://vitest.dev/guide/" target="_blank">Vitest</a>
-			</div>
+      <div class="sub-title">
+        Vitest Official Docs
+        <a
+          href="https://vitest.dev/guide/"
+          target="_blank"
+        >Vitest</a>
+      </div>
 
-			<div class="sub-title">
-				ESLint Official Docs
-				<a href="https://eslint.vuejs.org/" target="_blank">ESLint</a>
-			</div>
+      <div class="sub-title">
+        ESLint Official Docs
+        <a
+          href="https://eslint.vuejs.org/"
+          target="_blank"
+        >ESLint</a>
+      </div>
 
-			<div class="sub-title">
-				Awesome Vue GitHub Repository
-				<a href="https://github.com/vuejs/awesome-vue" target="_blank"
-					>Awesome Vue</a
-				>
-			</div>
-		</div>
-	</div>
+      <div class="sub-title">
+        Awesome Vue GitHub Repository
+        <a
+          href="https://github.com/vuejs/awesome-vue"
+          target="_blank"
+        >Awesome Vue</a>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
