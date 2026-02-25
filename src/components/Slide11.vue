@@ -18,6 +18,9 @@
 		<div class="content">
 			<p>Let's create a basic example with a typed property and method.</p>
 			<button @click="handleClick">Click me!</button>
+			<p v-if="lastNumber !== null" class="result-notification">
+				The number is {{ lastNumber }}
+			</p>
 
 			<p>Code Example</p>
 			<img src="../assets/Vue3Ts.jpg" alt="vue 3 with typescript example" />
@@ -30,10 +33,15 @@
 
 	export default defineComponent({
 		name: "Slide11",
+		data() {
+			return {
+				lastNumber: null as number | null,
+			};
+		},
 		methods: {
 			handleClick(): number {
 				const num1 = Math.floor(Math.random() * 101);
-				alert("The numbers is " + num1);
+				this.lastNumber = num1;
 				return num1;
 			},
 		},
@@ -57,5 +65,11 @@
 	button:hover {
 		background-color: rgba(3, 173, 100, 0.697);
 		color: #fff;
+	}
+
+	.result-notification {
+		color: #2d6a4f;
+		font-weight: 600;
+		margin-top: 0.5rem;
 	}
 </style>

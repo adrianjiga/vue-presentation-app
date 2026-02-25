@@ -63,6 +63,7 @@
 				<button v-on:click="handleClick">Click me</button>
 				<button @click="handleClick">Click me (Shorthand)</button>
 			</div>
+			<p v-if="clicked" class="click-notification">Button clicked!</p>
 			<div class="von-images">
 				<img alt="von-example" src="../assets/von-examples.jpg" />
 				<img alt="von-method" src="../assets/von-method.jpg" />
@@ -136,6 +137,7 @@
 				isDisabled: false,
 				vifMessage: false,
 				showElement: true,
+				clicked: false,
 				items: ["Item 1", "Item 2", "Item 3"],
 				message: "Hello, VueJS 3!",
 				buttonText:
@@ -146,7 +148,7 @@
 		},
 		methods: {
 			handleClick() {
-				alert("Button clicked!");
+				this.clicked = true;
 			},
 			toggleVisibility() {
 				this.showElement = !this.showElement;
@@ -204,5 +206,11 @@
 
 	button:hover {
 		background-color: rgba(3, 173, 100, 0.697);
+	}
+
+	.click-notification {
+		color: #2d6a4f;
+		font-weight: 600;
+		margin-top: 0.5rem;
 	}
 </style>
