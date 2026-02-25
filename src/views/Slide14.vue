@@ -79,14 +79,7 @@
 </script>
 
 <style scoped>
-	.slide {
-		padding: 20px;
-	}
-	.slide-title {
-		font-size: 35px;
-		margin-bottom: 45px;
-		text-align: center;
-	}
+	@import "../common.css";
 
 	.sub-title {
 		padding-bottom: 25px;
@@ -94,7 +87,9 @@
 	}
 
 	.links {
-		padding: 10px 30% 0 30%;
+		max-width: 600px;
+		margin: 0 auto;
+		padding-top: 10px;
 	}
 
 	.links a {

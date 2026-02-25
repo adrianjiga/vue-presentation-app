@@ -138,7 +138,7 @@
 		padding: 10px;
 		border: 1px solid #ddd;
 		border-radius: 5px;
-		width: 15%;
+		width: clamp(120px, 25%, 300px);
 		display: block;
 	}
 

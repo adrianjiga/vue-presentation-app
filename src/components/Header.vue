@@ -12,11 +12,10 @@
 
 <style scoped>
 	div {
-		font-size: 3rem;
+		font-size: clamp(1.4rem, 5vw, 3rem);
 		font-weight: 600;
 		background-color: #95d5b2;
 		text-align: center;
-		padding-top: 2rem;
-		padding-bottom: 2rem;
+		padding: clamp(0.75rem, 3vw, 2rem) 16px;
 	}
 </style>

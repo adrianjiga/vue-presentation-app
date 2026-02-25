@@ -17,3 +17,18 @@
 .content {
 	margin-left: 1.5rem;
 }
+
+@media (max-width: 768px) {
+	.slide-title {
+		font-size: 1.4rem;
+		margin-bottom: 20px;
+	}
+
+	.sub-title {
+		font-size: 1rem;
+	}
+
+	.content {
+		margin-left: 0.5rem;
+	}
+}
