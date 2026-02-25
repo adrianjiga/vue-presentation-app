@@ -1,6 +1,6 @@
 import { mount } from "@vue/test-utils";
 import { describe, it, expect } from "vitest";
-import Slide4 from "../Slide4.vue";
+import Slide4 from "../views/Slide4.vue";
 
 describe("Slide4 — Directives", () => {
   it("renders the slide title", () => {

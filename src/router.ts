@@ -1,18 +1,18 @@
 import { createRouter, createWebHistory, type RouteRecordRaw } from "vue-router";
-import Slide1 from "./components/Slide1.vue";
-import Slide2 from "./components/Slide2.vue";
-import Slide3 from "./components/Slide3.vue";
-import Slide4 from "./components/Slide4.vue";
-import Slide5 from "./components/Slide5.vue";
-import Slide6 from "./components/Slide6.vue";
-import Slide7 from "./components/Slide7.vue";
-import Slide8 from "./components/Slide8.vue";
-import Slide9 from "./components/Slide9.vue";
-import Slide10 from "./components/Slide10.vue";
-import Slide11 from "./components/Slide11.vue";
-import Slide12 from "./components/Slide12.vue";
-import Slide13 from "./components/Slide13.vue";
-import Slide14 from "./components/Slide14.vue";
+import Slide1 from "./views/Slide1.vue";
+import Slide2 from "./views/Slide2.vue";
+import Slide3 from "./views/Slide3.vue";
+import Slide4 from "./views/Slide4.vue";
+import Slide5 from "./views/Slide5.vue";
+import Slide6 from "./views/Slide6.vue";
+import Slide7 from "./views/Slide7.vue";
+import Slide8 from "./views/Slide8.vue";
+import Slide9 from "./views/Slide9.vue";
+import Slide10 from "./views/Slide10.vue";
+import Slide11 from "./views/Slide11.vue";
+import Slide12 from "./views/Slide12.vue";
+import Slide13 from "./views/Slide13.vue";
+import Slide14 from "./views/Slide14.vue";
 
 const routes: RouteRecordRaw[] = [
 	{ path: "/", component: Slide1 },

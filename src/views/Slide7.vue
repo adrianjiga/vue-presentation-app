@@ -33,7 +33,7 @@
 </template>
 
 <script lang="ts">
-	import { createBasicProxyExample } from "../proxyExamples.js";
+	import { createBasicProxyExample } from "../composables/proxyExamples.js";
 
 	export default {
 		name: "Slide7",

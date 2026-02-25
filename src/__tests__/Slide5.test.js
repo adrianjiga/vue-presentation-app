@@ -1,6 +1,6 @@
 import { mount } from "@vue/test-utils";
 import { describe, it, expect } from "vitest";
-import Slide5 from "../Slide5.vue";
+import Slide5 from "../views/Slide5.vue";
 
 describe("Slide5 — Computed Properties", () => {
   it("renders the slide title", () => {
