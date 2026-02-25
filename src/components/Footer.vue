@@ -1,10 +1,10 @@
 <template>
-	<footer>
-		<p>&copy; 2023 Adrian Jiga</p>
-	</footer>
+  <footer>
+    <p>&copy; 2025 Adrian Jiga</p>
+  </footer>
 </template>
 
-<script>
+<script lang="ts">
 	export default {
 		name: "Footer",
 	};
@@ -12,7 +12,6 @@
 
 <style scoped>
 	footer {
-		/* position: sticky; */
 		bottom: 0;
 		background-color: #95d5b2;
 		text-align: center;

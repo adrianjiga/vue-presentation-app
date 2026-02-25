@@ -1,10 +1,10 @@
 <template>
-	<header>
-		<div>VueJS 3</div>
-	</header>
+  <header>
+    <div>VueJS 3</div>
+  </header>
 </template>
 
-<script>
+<script lang="ts">
 	export default {
 		name: "Header",
 	};
