@@ -33,7 +33,7 @@
 	</div>
 </template>
 
-<script>
+<script lang="ts">
 	import { ref } from "vue";
 
 	export default {

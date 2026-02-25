@@ -32,7 +32,7 @@
 	</div>
 </template>
 
-<script>
+<script lang="ts">
 	import { createBasicProxyExample } from "../proxyExamples.js";
 
 	export default {

@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHistory, type RouteRecordRaw } from "vue-router";
 import Slide1 from "./components/Slide1.vue";
 import Slide2 from "./components/Slide2.vue";
 import Slide3 from "./components/Slide3.vue";
@@ -14,7 +14,7 @@ import Slide12 from "./components/Slide12.vue";
 import Slide13 from "./components/Slide13.vue";
 import Slide14 from "./components/Slide14.vue";
 
-const routes = [
+const routes: RouteRecordRaw[] = [
 	{ path: "/", component: Slide1 },
 	{ path: "/slide2", component: Slide2 },
 	{ path: "/slide3", component: Slide3 },
