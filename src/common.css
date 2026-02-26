@@ -18,6 +18,11 @@
 	margin-left: 1.5rem;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 @media (max-width: 768px) {
 	.slide-title {
 		font-size: 1.4rem;
